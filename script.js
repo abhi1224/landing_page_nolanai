@@ -8,3 +8,9 @@ window.addEventListener('scroll', (e) => {
 
     }
 })
+
+const navbarVisible = document.querySelector("#navbar-visible")
+
+function toggleMenu(){
+    navbarVisible.classList.toggle('hidden')
+}
