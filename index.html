@@ -47,248 +47,114 @@
                             class="bg-white text-center text-black lg:px-4 lg:py-1 font-bold rounded-full border-b py-4 px-5 my-4 lg:my-0 border-black lg:border-none">
                             <a href="login.html">Log in</a>
                         </li>
-                        <!-- <button
-                            class="bg-white text-black lg:px-4 lg:py-1 font-bold rounded-full border-b py-4 px-5 my-4 lg:my-0 border-black lg:border-none">Log
-                            in</button> -->
                     </ul>
                 </div>
             </nav>
         </header>
         <main class="">
 
-            <!-- <div class="block h-[135vh]">
+            <!-- image section star here -->
+            <div class="image">
                 <div>
-                    <img class="absolute object-cover md:w-full xl:h-[110vh] h-3/4" src="assest/main.webp" alt="">
+                    <img class="absolute object-cover object-center md:w-full h-full" src="assest/main.webp"
+                        alt="hero image for Studios">
                 </div>
-                <div class="w-full text-white px-5 mt-28 absolute z-20 inset-0 flex flex-col md:px-16">
+                <div class="text-white absolute z-20 bottom-[20vh] left-[5vw]">
                     <img class="h-20 w-40 md:h-36 md:w-72" src="assest/logo.svg" alt="">
-                    <div>
-                        <p class="md:text-5xl font-bold my-5 text-5xl">Film Industry Service Hub</p>
-                        <p class="md:text-3xl md:my-10 my-5 text-xl">Helping bring the next masterpiece to the big
-                            screens.</p>
-                    </div>
-                    <div class="flex gap-5">
-                        <button class="bg-blue-600 font-bold rounded-full px-6 py-4 flex gap-4 items-center"><i
+                    <p class="md:text-5xl font-bold my-5 text-5xl">Film Industry Service Hub</p>
+                    <p class="md:text-3xl md:my-10 my-5 text-xl">Helping bring the next masterpiece to the big
+                        screens.</p>
+
+                    <div class="flex gap-5 flex-col sm:flex-row">
+                        <button class="bg-blue-600 font-bold rounded-full px-6 py-4 flex gap-4 w-60 md:w-auto items-center"><i
                                 class="fa-solid fa-pen"></i>Start Writing</button>
-                        <button class="bg-white text-black font-bold  rounded-full px-6 py-4 flex gap-4 items-center"><i
+                        <button class="bg-white text-black font-bold  rounded-full px-6 py-4 w-60 md:w-auto flex gap-4 items-center"><i
                                 class="fa-solid fa-arrow-right-to-bracket"></i>Login</button>
                     </div>
                 </div>
+            </div>
+            <!-- image section end here -->
 
-                <div class="relative top-[70vh] xl:top-[102vh] bottom-0 left-0 right-0 space-y-5 lg:space-y-0 w-[95vw] m-auto lg:flex lg:gap-2 lg:justify-center lg:items-center"
-                    id="card-container">
-                    <div class="bg-[#2B2D33] m-auto lg:w-1/3 px-5 shadow-md shadow-cyan-500/50  h-max-40 rounded-2xl flex  md:justify-center md:items-center text-white"
-                        id="card1">
-                        <div
-                            class="bg-[#83C619] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                            <span class="material-symbols-outlined text-4xl">auto_awesome</span>
-                        </div>
-                        <div class="text-white w-3/4">
-                            <h1 class="text-2xl font-semibold py-5 px-2">Editor with AI-Copilot</h1>
-                            <p class="text-lg pb-5 px-2 text-[#636469]">Enhance your screenwriting experience with
-                                AI
-                                Copilot, which suggests ideas for you.</p>
-                        </div>
-                    </div>
-                    <div class="bg-[#2B2D33] m-auto lg:w-1/3 px-5  shadow-md shadow-cyan-500/50 h-manx-40 rounded-2xl flex  md:justify-center md:items-center text-white"
-                        id="card1">
-                        <div class="bg-blue-700 my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                            <span class="material-symbols-outlined text-4xl">list_alt</span>
-                        </div>
-                        <div class="text-white w-3/4">
-                            <h1 class="text-2xl font-semibold py-5 px-2">Automatic Script Breakdown</h1>
-                            <p class="text-lg pb-5 px-2 text-[#636469]">Script breakdown can be accomplished with a
-                                single click.</p>
-                        </div>
-                    </div>
-                    <div class="bg-[#2B2D33] m-auto lg:w-1/3 px-5 shadow-md shadow-cyan-500/50  h-max-40 rounded-2xl flex  md:justify-center md:items-center text-white"
-                        id="card1">
-                        <div
-                            class="bg-[#DA8813] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                            <span class="material-symbols-outlined text-4xl">developer_board</span>
-                        </div>
-                        <div class="text-white w-3/4">
-                            <h1 class="text-2xl font-semibold py-5 px-2">AI Storyboard</h1>
-                            <p class="text-lg  px-2 text-[#636469]">Automatically create shots by analyzing each
-                                scene
-                                within seconds. Generate shot images for inspiration.</p>
-                        </div>
-                    </div>
+            <!-- card container star here -->
 
+            <div class="relative inset-0 px-2 lg:space-y-0 space-y-5 top-[85vh] md:px-10 lg:flex lg:gap-4 lg:justify-center lg:items-center"
+                id="card-container">
+
+                <!-- First card -->
+
+                <div class="bg-[#2B2D33] flex-grow px-5 h-52 rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
+                    id="card1">
+                    <div class="bg-[#83C619] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
+                        <span class="material-symbols-outlined text-4xl">auto_awesome</span>
+                    </div>
+                    <div class="text-white w-3/4">
+                        <h1 class="text-2xl font-bold py-5 px-2">Editor with AI-Copilot</h1>
+                        <p class="text-sm pb-5 px-2 font-semibold text-[#636469] leading-5">Enhance your screenwriting
+                            experience with AI Copilot, which suggests ideas for you.</p>
+                    </div>
+                </div>
+
+                <!-- First card end here -->
+
+                <!-- Second card -->
+                <div class="bg-[#2B2D33] flex-grow px-5 h-52 rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
+                    id="card2">
+                    <div class="bg-blue-700 my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
+                        <span class="material-symbols-outlined text-4xl">list_alt</span>
+                    </div>
+                    <div class="text-white w-3/4">
+                        <h1 class="text-2xl font-bold py-5 px-2">Automatic Script Breakdown</h1>
+                        <p class="text-sm pb-5 px-2 text-[#636469] leading-5"> Script breakdown can be accomplished with
+                            a single click.</p>
+                    </div>
+                </div>
+
+                <!-- Second card end here -->
+
+                <!-- Third card -->
+                <div class="bg-[#2B2D33] flex-grow px-5 h-52  rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
+                    id="card3">
+                    <div class="bg-[#DA8813] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
+                        <span class="material-symbols-outlined text-4xl">developer_board</span>
+                    </div>
+                    <div class="text-white w-3/4">
+                        <h1 class="text-2xl font-bold py-5 px-2">AI Storyboard</h1>
+                        <p class="text-sm  px-2 text-[#636469] leading-5">Automatically create shots by analyzing each
+                            scene
+                            within seconds. Generate shot images for inspiration.</p>
+                    </div>
+                </div>
+                <!-- third card end here -->
+            </div>
+            <!-- card container end here -->
+
+            <!-- Section 2 image and text start here -->
+            <div class="flex flex-col mt-[90vh] lg:flex-row md:px-10 px-5" id="section2">
+                <div class="lg:w-[40%] w-full flex justify-center items-center">
+                    <img class="object-cover lg:h-80 lg:w-80" src="assest/shield.webp" alt="notebook-iso-gradient.png">
+
+                </div>
+                <div class="lg:w-[60%] w-full text-white">
+                    <h1 class="text-5xl my-10 font-bold text-center">Secure</h1>
+                    <h3 class="py-2 text-2xl">Don't worry, your data is secure and encryted with NOLAN</h3>
+                    <p class="text-lg">We take your privacy and the ownership of
+                        your
+                        work very seriously. We respect your creative content and have no rights over it. We do
+                        not
+                        use your work for training our models or for any other purposes without your explicit
+                        consent. Your scripts and content remain your intellectual property. So, when you
+                        create/upload or edit content using our software, you retain full ownership of the
+                        intellectual property. We do not claim any rights to your scripts or any other content
+                        you
+                        produce. Your creative work is yours and yours alone
+                    </p>
                 </div>
             </div>
 
-            <div class="md:h-[75vh] w-full flex flex-col lg:flex-row lg:justify-center lg:items-center" id="section2">
-
-                <div class="lg:w-[35vw] w-full h-1/2 flex justify-center items-center" id="left">
-                    <img class="h-80" src="assest/shield.webp" alt="shield image ..">
-                </div>
-
-                <div class=" lg:w-[65vw] w-full h-1/2 text-white" id="right">
-
-                    <div class="px-10 md:py-10 md:w-[90%] text-center md:text-left">
-                        <h1 class="py-2 text-4xl font-bold  ">Secure</h1>
-                        <h3 class="py-2 text-2xl">Don't worry, your data is secure and encryted with NOLAN</h3>
-                        <p class="py-5 text-lg text-[#ADAEB0] leading-5">We take your privacy and the ownership of
-                            your
-                            work very seriously. We respect your creative content and have no rights over it. We do
-                            not
-                            use your work for training our models or for any other purposes without your explicit
-                            consent. Your scripts and content remain your intellectual property. So, when you
-                            create/upload or edit content using our software, you retain full ownership of the
-                            intellectual property. We do not claim any rights to your scripts or any other content
-                            you
-                            produce. Your creative work is yours and yours alone</p>
-                    </div>
-
-                </div>
-            </div>
+            <!-- Section 2 image and text end here -->
 
 
-            <div class="block w-full h-[100vh] text-white" id="section3">
-                <div class="" id="image">
-                    <img class="absolute w-full lg:h-full h-full object-cover"
-                        src="assest/hero-img-landing-vid copy.webp" alt="">
-
-                    <div class="relative h-[100vh] flex flex-col xl:flex-row">
-
-                        <div class="lg:w-3/4 w-full lg:p-20 lg:h-1/2 p-5">
-                            <h1 class="md:text-4xl sm:text-4xl text-3xl">Free Script Writing Software</h1>
-                            <h1 class="md:text-6xl sm:text-6xl text-6xl font-bold">And More</h1>
-                            <p
-                                class="sm:text-2xl xl:text-lg md:text-2xl md:leading-9 md:my-10  lg:my-6 my-4 text-xl leading-6">
-                                NolanAI isn't just a screenwriting tool, it's a filmmaker's dream studio. From
-                                crafting
-                                your script with AI assistance to seamlessly pre-producing your masterpiece, all
-                                within
-                                one intuitive platform, NolanAI empowers you to tell your story without losing your
-                                creative spark.<br>Imagine ditching siloed tools and having everything at your
-                                fingertips, from storyboards to shot lists, all fueled by AI smarts and
-                                user-friendly
-                                design. That's the NolanAI advantage - streamlined storytelling, from pen to
-                                production,
-                                with your unique voice always in the director's chair.</p>
-                            <button
-                                class="px-5 py-3 bg-blue-600 rounded-full font-semibold cursor-pointer hover:bg-blue-800">Explore
-                                Our premium plan <i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-
-                        <div class="w-full lg:h-1/2 ">
-                            <a href=""><img class="md:p-20 p-5" src="assest/dashboardBanner.webp" alt=""></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div> -->
-
-
-
-             <!-- image section star here -->
-    <div class="image">
-        <div> 
-            <img class="absolute object-cover object-center md:w-full h-full" src="assest/main.webp"
-                alt="hero image for Studios">
-        </div>
-        <div class="text-white absolute z-20 bottom-[20vh] left-[5vw]">
-            <img class="h-20 w-40 md:h-36 md:w-72" src="assest/logo.svg" alt="">
-            <p class="md:text-5xl font-bold my-5 text-5xl">Film Industry Service Hub</p>
-            <p class="md:text-3xl md:my-10 my-5 text-xl">Helping bring the next masterpiece to the big
-                screens.</p>
-
-                <div class="flex gap-5 flex-col sm:flex-row">
-                    <button class="bg-blue-600 font-bold rounded-full px-6 py-4 flex gap-4 items-center"><i
-                            class="fa-solid fa-pen"></i>Start Writing</button>
-                    <button class="bg-white text-black font-bold  rounded-full px-6 py-4 flex gap-4 items-center"><i
-                            class="fa-solid fa-arrow-right-to-bracket"></i>Login</button>
-                </div>
-        </div>
-    </div>
-    <!-- image section end here -->
-
-    <!-- card container star here -->
-
-    <div class="relative inset-0 px-2 lg:space-y-0 space-y-5 top-[85vh] md:px-10 lg:flex lg:gap-4 lg:justify-center lg:items-center"
-        id="card-container">
-
-        <!-- First card -->
-
-        <div class="bg-[#2B2D33] flex-grow px-5 h-52 rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
-            id="card1">
-            <div class="bg-[#83C619] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                <span class="material-symbols-outlined text-4xl">auto_awesome</span>
-            </div>
-            <div class="text-white w-3/4">
-                <h1 class="text-2xl font-bold py-5 px-2">Editor with AI-Copilot</h1>
-                <p class="text-sm pb-5 px-2 font-semibold text-[#636469] leading-5">Enhance your screenwriting experience with AI Copilot, which suggests ideas for you.</p>
-            </div>
-        </div>
-
-        <!-- First card end here -->
-
-        <!-- Second card -->
-        <div class="bg-[#2B2D33] flex-grow px-5 h-52 rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
-            id="card2">
-            <div class="bg-blue-700 my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                <span class="material-symbols-outlined text-4xl">list_alt</span>
-            </div>
-            <div class="text-white w-3/4">
-                <h1 class="text-2xl font-bold py-5 px-2">Automatic Script Breakdown</h1>
-                <p class="text-sm pb-5 px-2 text-[#636469] leading-5">  Script breakdown can be accomplished with a single click.</p>
-            </div>
-        </div>
-
-        <!-- Second card end here -->
-
-        <!-- Third card -->
-        <div class="bg-[#2B2D33] flex-grow px-5 h-52  rounded-2xl shadow-md shadow-cyan-500/50 flex  md:justify-center md:items-center text-white"
-            id="card3">
-            <div class="bg-[#DA8813] my-8 w-[5rem] h-[5rem] rounded-[5rem] flex justify-center items-center">
-                <span class="material-symbols-outlined text-4xl">developer_board</span>
-            </div>
-            <div class="text-white w-3/4">
-                <h1 class="text-2xl font-bold py-5 px-2">AI Storyboard</h1>
-                <p class="text-sm  px-2 text-[#636469] leading-5">Automatically create shots by analyzing each
-                    scene
-                    within seconds. Generate shot images for inspiration.</p>
-            </div>
-        </div>
-        <!-- third card end here -->
-    </div>
-    <!-- card container end here -->
-
-    <!-- Section 2 image and text start here -->
-    <div class="flex flex-col mt-[90vh] lg:flex-row md:px-10 px-5" id="section2">
-        <div class="lg:w-[40%] w-full flex justify-center items-center">
-            <!-- <div class="h-80 w-80 border border-zinc-700/100 rounded-full flex justify-center items-center">
-                <div class="h-64 w-64 border border-zinc-700/100 rounded-full flex justify-center items-center">
-                    <div class="h-44 w-44 border border-zinc-700/100 rounded-full flex justify-center items-center">
-                    </div>
-                </div>
-            </div> -->
-            <img class="object-cover" src="assest/shield.webp" alt="notebook-iso-gradient.png">
-
-        </div>
-        <div class="lg:w-[60%] w-full text-white">
-            <h1 class="text-5xl my-10 font-bold text-center">Secure</h1>
-            <h3 class="py-2 text-2xl">Don't worry, your data is secure and encryted with NOLAN</h3>
-            <p class="text-lg">We take your privacy and the ownership of
-                your
-                work very seriously. We respect your creative content and have no rights over it. We do
-                not
-                use your work for training our models or for any other purposes without your explicit
-                consent. Your scripts and content remain your intellectual property. So, when you
-                create/upload or edit content using our software, you retain full ownership of the
-                intellectual property. We do not claim any rights to your scripts or any other content
-                you
-                produce. Your creative work is yours and yours alone
-            </p>
-        </div>
-    </div>
-
-    <!-- Section 2 image and text end here -->
-
-
-            <div class="block w-full">
+            <div class="block w-full lg:my-20">
                 <div class="md:w-1/4 text-center m-auto text-white my-10">
                     <h1 class="font-bold lg:text-6xl text-4xl">Testimonials</h1>
                     <h3 class="font-medium text-xl text-[#636469] my-5">What Our Customer Says</h3>
